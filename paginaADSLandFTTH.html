@@ -1,0 +1,123 @@
+<html><head>
+<title>ADSL AND FTTH: Principles of Operation</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+  }
+  h1, h2 {
+    color: #0066cc;
+  }
+  .tech-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .tech-box {
+    width: 48%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  .references, .conclusion {
+    background-color: #e6f2ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+</style>
+</head>
+<body>
+  <h1>ADSL AND FTTH: Principles of Operation</h1>
+  
+  <div class="tech-container">
+    <div class="tech-box">
+      <h2>ADSL</h2>
+      <img src="img/img1.jpg"width="350" height="200">
+      <p>ADSL (Asymmetric Digital Subscriber Line) is a broadband technology that uses existing copper telephone lines to transmit data. Key principles:</p>
+      <ul>
+        <li>Utilizes different frequencies for upstream and downstream data</li>
+        <li>Asymmetric speeds: faster download than upload</li>
+        <li>Uses a splitter to separate voice and data signals</li>
+        <li>Maximum theoretical speed: 24 Mbps download, 3.3 Mbps upload</li>
+        <li>Performance degrades with distance from the telephone exchange</li>
+      </ul>
+    </div>
+    
+    <div class="tech-box">
+      <h2>FTTH</h2>
+      <img src="img/img2.jpg"width="350" height="200">
+      <p>FTTH (Fiber to the Home) is a fiber optic communication delivery method. Key principles:</p>
+      <ul>
+        <li>Uses fiber optic cables to transmit data as light pulses</li>
+        <li>Offers symmetrical high-speed connections</li>
+        <li>Capable of speeds up to 10 Gbps or more</li>
+        <li>Minimal signal degradation over long distances</li>
+        <li>Requires new infrastructure installation</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>Conclusion</h2>
+    <p>Monroy Moreno Alexis Joel 1825045</p>
+    <p>While ADSL technology leverages existing copper infrastructure to provide broadband access, FTTH represents a significant leap forward in terms of speed, reliability, and future-proofing. FTTH's use of fiber optic technology allows for much higher data transmission rates and lower latency, making it the preferred choice for modern, high-bandwidth applications. However, the widespread adoption of FTTH is limited by the need for new infrastructure installation, which can be costly and time-consuming compared to ADSL's use of existing telephone lines.</p>
+  </div>
+
+  <div class="conclusion">
+    <h2>Conclusion</h2>
+    <p>Reyes Hernandez Yael Antonio 2129668</p>
+    <p>ADSL (Asymmetric Digital Subscriber Line) uses telephone lines to provide internet access. It is asymmetric, which means that the download speed is higher than the upload speed. The connection quality depends on the distance from the telephone exchange, while FTTH (Fiber to the Home) is a fiber optic technology that brings internet directly to the user's home. It offers faster and symmetric speeds, reaching up to 1 Gbps or more.</p>
+  </div>
+
+  <div class="conclusion">
+    <h2>Conclusion</h2>
+    <p>Lopez Garcia Ulises 2129661</p>
+    <p>ADSL uses copper telephone wires to deliver uneven internet speeds, with performance decreasing over distance. FTTH uses fiber optics to provide faster, balanced speeds with greater reliability and no distance limitations, making it a more modern and future-ready option.</p>
+  </div>
+
+  <div class="conclusion">
+    <h2>Conclusion</h2>
+    <p>Pérez Peña Betsabe Guadalupe 2173227</p>
+    <p>ADSL and FTTH are data transmission technologies that use different infrastructures and offer different performance capabilities and ADSL, based on copper telephone lines,  speeds with higher download capacity, speeds with higher download capacity with superior performance and no significant signal degradation over long distances.</p>
+  </div>
+
+  <div class="references">
+    <h2>References</h2>
+    <ol>
+      <li>Goralski, W. (2020). The Illustrated Network: How TCP/IP Works in a Modern Network. Morgan Kaufmann.</li>
+      <li>Ramaswami, R., Sivarajan, K., & Sasaki, G. (2010). Optical Networks: A Practical Perspective. Morgan Kaufmann.</li>
+      <li>Held, G. (2019). Understanding Broadband Technologies. Auerbach Publications.</li>
+      <li>Effenberger, F. (2016). Future Broadband Access Networks. Proceedings of the IEEE, 104(11), 2078-2081.</li>
+    </ol>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const techBoxes = document.querySelectorAll('.tech-box');
+      
+      techBoxes.forEach(box => {
+        box.addEventListener('mouseover', () => {
+          box.style.transform = 'scale(1.05)';
+          box.style.transition = 'transform 0.3s ease-in-out';
+        });
+        
+        box.addEventListener('mouseout', () => {
+          box.style.transform = 'scale(1)';
+        });
+      });
+    });
+  </script>
+</body></html>
